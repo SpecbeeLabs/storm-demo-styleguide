@@ -1,0 +1,140 @@
+.colors {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: var(--sp);
+}
+
+.color-box {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.color-box__name {
+  font-family: var(--font-secondary);
+  font-size: var(--fs-s);
+  margin-block-end: var(--sp0-25);
+}
+
+.color-box__code {
+  font-family: var(--font-secondary);
+  font-size: var(--fs-xs);
+}
+
+.color-box--white-bg {
+  color: var(--color--white);
+}
+
+.color-box--black {
+  background: var(--color--black);
+}
+
+.color-box--gray-0 {
+  background: var(--color--gray-0);
+}
+
+.color-box--gray-5 {
+  background: var(--color--gray-5);
+}
+
+.color-box--gray-8 {
+  background: var(--color--gray-8);
+}
+
+.color-box--gray-10 {
+  background: var(--color--gray-10);
+}
+
+.color-box--gray-20 {
+  background: var(--color--gray-20);
+}
+
+.color-box--gray-25 {
+  background: var(--color--gray-25);
+}
+
+.color-box--gray-28 {
+  background: var(--color--gray-28);
+}
+
+.color-box--gray-30 {
+  background: var(--color--gray-30);
+}
+
+.color-box--gray-40 {
+  background: var(--color--gray-40);
+}
+
+.color-box--gray-45 {
+  background: var(--color--gray-45);
+}
+
+.color-box--gray-50 {
+  background: var(--color--gray-50);
+}
+
+.color-box--gray-70 {
+  background: var(--color--gray-70);
+}
+
+.color-box--gray-75 {
+  background: var(--color--gray-75);
+}
+
+.color-box--gray-80 {
+  background: var(--color--gray-80);
+}
+
+.color-box--gray-90 {
+  background: var(--color--gray-90);
+}
+
+.color-box--gray-95 {
+  background: var(--color--gray-95);
+}
+
+.color-box--blue {
+  background: var(--color--blue);
+}
+
+.color-box--blue-10 {
+  background: var(--color--blue-10);
+}
+
+.color-box--blue-20 {
+  background: var(--color--blue-20);
+}
+
+.color-box--blue-30 {
+  background: var(--color--blue-30);
+}
+
+.color-box--blue-50 {
+  background: var(--color--blue-50);
+}
+
+.color-box--blue-70 {
+  background: var(--color--blue-70);
+}
+
+.color-box--blue-90 {
+  background: var(--color--blue-90);
+}
+
+.color-box--white {
+  background: var(--color--white);
+}
+
+.color-box--red {
+  background: var(--color--red);
+}
+
+.color-box--gold {
+  background: var(--color--gold);
+}
+
+.color-box--green {
+  background: var(--color--green);
+}
