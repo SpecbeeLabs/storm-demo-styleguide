@@ -7,7 +7,7 @@ function Banner() {
       <h2 className="section__title">Banner</h2>
       <section className="banner">
         <div className="banner__media">
-          <img src={logo} />
+          <img src={logo} alt="Banner"/>
         </div>
         <div className="banner__content">
           <div className="banner__content-inner">
@@ -19,10 +19,10 @@ function Banner() {
               </p>
             </div>
             <div className="banner__links">
-              <a href="#" className="button button--primary">
+              <a href="/" className="button button--primary">
                 Primary CTA
               </a>
-              <a href="#" className="link link-cta">
+              <a href="/" className="link link-cta">
                 Secondary CTA
               </a>
             </div>

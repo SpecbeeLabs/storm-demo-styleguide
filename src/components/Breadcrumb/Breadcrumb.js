@@ -8,17 +8,17 @@ function Breadcrumb() {
         <nav className="breadcrumb">
           <ul className="menu menu--breadcrumb">
             <li className="menu__item">
-              <a href="#" className="menu__link">
+              <a href="/" className="menu__link">
                 Home
               </a>
             </li>
             <li className="menu__item">
-              <a href="#" className="menu__link">
+              <a href="/" className="menu__link">
                 Storm CMS
               </a>
             </li>
             <li className="menu__item">
-              <a href="#" className="menu__link">
+              <a href="/" className="menu__link">
                 Style Guide
               </a>
             </li>

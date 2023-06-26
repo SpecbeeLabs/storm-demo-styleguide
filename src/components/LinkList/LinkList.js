@@ -9,27 +9,27 @@ function LinkList() {
         <nav className="link-list">
           <ul className="menu menu--links">
             <li className="menu__item">
-              <a href="#" className="menu__link">
+              <a href="/" className="menu__link">
                 Home
               </a>
             </li>
             <li className="menu__item">
-              <a href="#" className="menu__link">
+              <a href="/" className="menu__link">
                 About
               </a>
             </li>
             <li className="menu__item">
-              <a href="#" className="menu__link">
+              <a href="/" className="menu__link">
                 Contact
               </a>
             </li>
             <li className="menu__item">
-              <a href="#" className="menu__link">
+              <a href="/" className="menu__link">
                 Privacy Policy
               </a>
             </li>
             <li className="menu__item">
-              <a href="#" className="menu__link">
+              <a href="/" className="menu__link">
                 Terms of Use
               </a>
             </li>
@@ -41,27 +41,27 @@ function LinkList() {
         <nav className="link-list link-list--block">
           <ul className="menu">
             <li className="menu__item">
-              <a href="#" className="menu__link">
+              <a href="/" className="menu__link">
                 Home
               </a>
             </li>
             <li className="menu__item">
-              <a href="#" className="menu__link">
+              <a href="/" className="menu__link">
                 About
               </a>
             </li>
             <li className="menu__item">
-              <a href="#" className="menu__link">
+              <a href="/" className="menu__link">
                 Contact
               </a>
             </li>
             <li className="menu__item">
-              <a href="#" className="menu__link">
+              <a href="/" className="menu__link">
                 Privacy Policy
               </a>
             </li>
             <li className="menu__item">
-              <a href="#" className="menu__link">
+              <a href="/" className="menu__link">
                 Terms of Use
               </a>
             </li>

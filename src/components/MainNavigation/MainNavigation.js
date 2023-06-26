@@ -8,22 +8,22 @@ function MainNavigation() {
         <nav className="site-navigation">
           <ul className="menu menu__main">
             <li className="menu__item">
-              <a href="#" className="menu__link">
+              <a href="/" className="menu__link">
                 Home
               </a>
             </li>
             <li className="menu__item">
-              <a href="#" className="menu__link">
+              <a href="/" className="menu__link">
                 About Us
               </a>
             </li>
             <li className="menu__item">
-              <a href="#" className="menu__link">
+              <a href="/" className="menu__link">
                 Articles
               </a>
             </li>
             <li className="menu__item">
-              <a href="#" className="menu__link">
+              <a href="/" className="menu__link">
                 Contact
               </a>
             </li>

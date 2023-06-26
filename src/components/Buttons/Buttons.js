@@ -8,7 +8,7 @@ function Buttons() {
         <h3>Default Buttons</h3>
         <div className="buttons__default d-grid d-grid__4">
           <div className="buttons__item">
-            <a href="#" className="button button--default">
+            <a href="/" className="button button--default">
               Default button
             </a>
           </div>
@@ -20,7 +20,7 @@ function Buttons() {
         <h3>Primary Buttons</h3>
         <div className="buttons__primary d-grid d-grid__4">
           <div className="buttons__item">
-            <a href="#" className="button button--primary">
+            <a href="/" className="button button--primary">
               Primary button
             </a>
           </div>
@@ -32,7 +32,7 @@ function Buttons() {
         <h3>Secondary Buttons</h3>
         <div className="buttons__secondary d-grid d-grid__4">
           <div className="buttons__item">
-            <a href="#" className="button button--secondary">
+            <a href="/" className="button button--secondary">
               Secondary button
             </a>
           </div>
@@ -46,7 +46,7 @@ function Buttons() {
         <h3>Text Buttons</h3>
         <div className="buttons__text d-grid d-grid__4">
           <div className="buttons__item">
-            <a href="#" className="button button--text">
+            <a href="/" className="button button--text">
               Text button
             </a>
           </div>
