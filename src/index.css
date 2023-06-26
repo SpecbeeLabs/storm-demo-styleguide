@@ -1,5 +1,5 @@
 :root {
-  --font-primary: 'Lora', serif;
+  --font-primary: 'WorkSans', sans-serif;
   --font-secondary: "Metropolis", "sans-serif";
   --container: 1440px;
   --layout-container: 960px;
@@ -24,13 +24,13 @@
   --sp12: calc(12 * var(--sp));
   --fs: 16px;
   --fs-m: 18px;
-  --fs-ml: 22px;
-  --fs-l: 28px;
-  --fs-xl: 32px;
-  --fs-xxl: 36px;
+  --fs-ml: 24px;
+  --fs-l: 30px;
+  --fs-xl: 36px;
+  --fs-xxl: 42px;
   --fs-s: 14px;
   --fs-xs: 12px;
-  --fs-title: 42px;
+  --fs-title: 55px;
   --color--black: #000; /* Black */
   --color--gray-0: #0d1214; /* Black 1 */
   --color--gray-5: #0c0d0e;
@@ -138,39 +138,22 @@ a:hover, a:focus {
 
 /* lora-regular - latin */
 @font-face {
-  font-family: Lora;
+  font-family: WorkSans;
   src:
-    local("Lora Regular"),
-    local("Lora-Regular"),
-    url("./fonts/lora/lora-v14-latin-regular.woff2") format("woff2"),
-    url("./fonts/lora/lora-v14-latin-regular.woff") format("woff");
+    url("./fonts/worksans/worksans-regular.woff2") format("woff2"),
+    url("./fonts/worksans/worksans-regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
-}
-
-/* lora-italic - latin */
-@font-face {
-  font-family: Lora;
-  src:
-    local("Lora Italic"),
-    local("Lora-Italic"),
-    url("./fonts/lora/lora-v14-latin-italic.woff2") format("woff2"),
-    url("./fonts/lora/lora-v14-latin-italic.woff") format("woff");
-  font-weight: 400;
-  font-style: italic;
   font-display: swap;
 }
 
 /* lora-700 - latin */
 
 @font-face {
-  font-family: Lora;
+  font-family: WorkSans;
   src:
-    local("Lora Bold"),
-    local("Lora-Bold"),
-    url("./fonts/lora/lora-v14-latin-700.woff2") format("woff2"),
-    url("./fonts/lora/lora-v14-latin-700.woff") format("woff");
+    url("./fonts/worksans/worksans-bold.woff2") format("woff2"),
+    url("./fonts/worksans/worksans-bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -225,4 +208,16 @@ a:hover, a:focus {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.visually-hidden {
+  clip: rect(0,0,0,0)!important;
+  border: 0!important;
+  height: 1px!important;
+  margin: -1px!important;
+  overflow: hidden!important;
+  padding: 0!important;
+  position: absolute!important;
+  white-space: nowrap!important;
+  width: 1px!important;
 }

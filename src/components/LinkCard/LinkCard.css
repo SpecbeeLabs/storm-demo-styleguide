@@ -1,0 +1,40 @@
+.card--link-text {
+  position: relative;
+  padding: var(--sp2) var(--sp4) var(--sp2) var(--sp2);
+  background: var(--color--gray-90);
+  border-inline-start: 5px solid var(--color--blue);
+}
+
+.card--link-text::after {
+  content: "\02192";
+  position: absolute;
+  right: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: .25s all ease-in-out;
+}
+
+.card--link-text:hover::after {
+  right: 36px;
+}
+
+.card--link-text .card__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: none;
+}
+
+.card--link-text--red {
+  border-color: var(--color--red);
+}
+
+.card--link-text--green {
+  border-color: var(--color--green);
+}
+
+.card--link-text--gold {
+  border-color: var(--color--gold);
+}

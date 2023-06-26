@@ -3,6 +3,7 @@ import Banner from "./components/Banner/Banner";
 import Breadcrumb from "./components/Breadcrumb/Breadcrumb";
 import Buttons from "./components/Buttons/Buttons";
 import ColorPalette from "./components/ColorPalette/ColorPalette";
+import LinkCard from "./components/LinkCard/LinkCard";
 import LinkList from "./components/LinkList/LinkList";
 import Links from "./components/Links/Links";
 import MainNavigation from "./components/MainNavigation/MainNavigation";
@@ -25,6 +26,7 @@ function App() {
         <Buttons />
         <Banner />
         <TextCard />
+        <LinkCard />
       </div>
     </div>
   );
