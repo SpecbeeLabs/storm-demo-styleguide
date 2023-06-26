@@ -212,6 +212,10 @@ a:hover, a:focus {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.d-grid__4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .d-grid__12 {
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(12, 1fr);
 }

@@ -1,4 +1,5 @@
 import "./App.css";
+import Buttons from "./components/Buttons/Buttons";
 import ColorPalette from "./components/ColorPalette/ColorPalette";
 import LinkList from "./components/LinkList/LinkList";
 import Links from "./components/Links/Links";
@@ -17,6 +18,7 @@ function App() {
         <Links />
         <LinkList />
         <MainNavigation />
+        <Buttons/>
       </div>
     </div>
   );
