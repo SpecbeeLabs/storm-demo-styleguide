@@ -1,4 +1,5 @@
 import "./App.css";
+import ArticleCard from "./components/ArticleCard/ArticleCard";
 import Banner from "./components/Banner/Banner";
 import Breadcrumb from "./components/Breadcrumb/Breadcrumb";
 import Buttons from "./components/Buttons/Buttons";
@@ -33,6 +34,7 @@ function App() {
         <ImageCard />
         <ImageTextCard />
         <HeroCard />
+        <ArticleCard />
       </div>
     </div>
   );

@@ -1,0 +1,43 @@
+.article--card {
+  background-color: var(--color--blue-90);
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  transform: translateY(0);
+  transition: .25s all ease-in-out;
+}
+
+.article--card:hover {
+  transform: translateY(-5px);
+}
+
+.article--card .article__content {
+  padding: var(--sp);
+}
+
+.article--card .article__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: none;
+}
+
+.article--card .article__tag {
+  padding: var(--sp0-5);
+  border: 1px solid;
+  color: var(--color--green);
+  font-size: var(--fs-xs);
+  border-radius: 20px;
+  display: inline-block;
+  margin-block-end: var(--sp0-5);
+}
+
+.article--card .article__footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--fs-s);
+  font-weight: 700;
+  color: var(--color--gray-25);
+}
