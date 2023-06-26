@@ -1,0 +1,18 @@
+.card--hero {
+  display: flex;
+  align-items: center;
+  gap: var(--sp4);
+  margin-block-end: var(--sp3);
+}
+
+.card--hero .card__media {
+  flex: 0 0 calc(50% - var(--sp4));
+}
+
+.card--hero .card__link {
+  margin-block: var(--sp1-5);
+}
+
+.card--hero-media-right {
+  flex-direction: row-reverse;
+}
