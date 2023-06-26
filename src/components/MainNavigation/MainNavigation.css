@@ -1,0 +1,21 @@
+.menu__main {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: var(--sp1-5);
+}
+
+.menu__link {
+  font-family: var(--font-secondary);
+  color: var(--color--gray-8);
+  padding-block: var(--sp1-5);
+  border: none;
+  text-transform: uppercase;
+  font-size: var(--fs-s);
+}
+
+.menu__link:hover {
+  color: var(--color--blue);
+  border-bottom: 5px solid;
+}

@@ -119,6 +119,7 @@ a {
 
 a:hover, a:focus {
   color: var(--color--blue-20);
+  border-bottom: none;
 }
 
 
