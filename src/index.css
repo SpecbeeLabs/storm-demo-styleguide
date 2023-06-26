@@ -202,7 +202,7 @@ a:hover, a:focus {
 
 .section__content {
   padding: var(--sp2) var(--sp3);
-  background: var(--color--gray-90);
+  background: var(--color--white);
 }
 
 .d-grid {

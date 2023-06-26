@@ -6,6 +6,7 @@ import ColorPalette from "./components/ColorPalette/ColorPalette";
 import LinkList from "./components/LinkList/LinkList";
 import Links from "./components/Links/Links";
 import MainNavigation from "./components/MainNavigation/MainNavigation";
+import TextCard from "./components/TextCard/TextCard";
 import Typography from "./components/Typography/Typography";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <MainNavigation />
         <Buttons />
         <Banner />
+        <TextCard />
       </div>
     </div>
   );
