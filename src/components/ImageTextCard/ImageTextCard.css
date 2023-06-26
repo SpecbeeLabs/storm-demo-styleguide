@@ -1,0 +1,16 @@
+.card--image-text {
+  background-color: var(--color--gray-90);
+}
+
+.card--image-text .card__content {
+  padding: var(--sp)
+}
+
+.card--image-text .card__title {
+  font-size: var(--fs-ml);
+  margin: 0;
+}
+
+.card--image-text .card__excerpt p {
+  font-size: var(--fs-s);
+}
