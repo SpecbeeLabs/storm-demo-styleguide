@@ -1,0 +1,36 @@
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu__item {
+  margin-block: var(--sp0-5);
+}
+
+.menu__link {
+  border: none;
+  text-transform: uppercase;
+  font-family: var(--font-secondary);
+  font-size: var(--fs-xs);
+  color: var(--color--gray-25);
+}
+
+.menu--links {
+  display: flex;
+  gap: var(--sp3);
+}
+
+.sp4 {
+  margin-block: var(--sp4);
+}
+
+.link-list--block {
+  padding: var(--sp1-5);
+  background: var(--color--blue-90);
+  max-width: 300px;
+}
+
+.link-list--block .menu__link {
+  color: var(--color--blue-20);
+}

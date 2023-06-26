@@ -97,10 +97,6 @@ function ColorPalette() {
           <div className="color-box__name">Blue 70</div>
           <div className="color-box__code">#53b0eb</div>
         </div>
-        <div className="color-box color-box--blue-70 color-box--white-bg">
-          <div className="color-box__name">Blue 70</div>
-          <div className="color-box__code">#53b0eb</div>
-        </div>
         <div className="color-box color-box--blue-90">
           <div className="color-box__name">Blue 90</div>
           <div className="color-box__code">#ddeffb</div>
