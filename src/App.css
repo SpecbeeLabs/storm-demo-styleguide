@@ -8,10 +8,19 @@
 .app__header {
   padding: var(--sp2) var(--sp4);
   background: var(--color--blue);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
-.page-title {
+header > .page-title {
+  font-size: var(--fs-xxl);
   margin: 0;
   color: var(--color--white);
 }
 
+.app__content {
+  margin-top: 130px;
+  padding-block: var(--sp2);
+}

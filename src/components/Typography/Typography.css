@@ -1,0 +1,19 @@
+.typography .section__content {
+  grid-template-columns: 1fr 2fr;
+  column-gap: var(--sp4);
+  row-gap: 0;
+}
+.typography__left-rail {
+  border-right: 5px solid var(--color--black);
+  padding-block: var(--sp1-5) var(--sp3);
+}
+
+.typography__left-rail span {
+  font-size: var(--fs-s);
+  display: flex;
+  color: var(--color--blue-50);
+}
+
+.typography__right-rail {
+  padding-block: var(--sp1-5) var(--sp3);
+}

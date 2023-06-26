@@ -4,7 +4,7 @@ function ColorPalette() {
   return (
     <section className="color-palette section">
       <h2 className="colors__title section__title">Color Palette</h2>
-      <div className="colors">
+      <div className="d-grid d-grid__12 section__content">
         <div className="color-box color-box--black color-box--white-bg">
           <div className="color-box__name">Black</div>
           <div className="color-box__code">#000</div>
