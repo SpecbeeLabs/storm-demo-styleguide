@@ -1,0 +1,20 @@
+.links__link {
+  display: inline-flex;
+  flex-direction: column;
+  gap: var(--sp);
+}
+
+.link-cta {
+  font-family: var(--font-secondary);
+  border: none;
+}
+
+.link-cta::after {
+  content: "\02192";
+  margin-inline-start: var(--sp0-5);
+  transition: .25s all ease-in-out;
+}
+
+.link-cta:hover::after {
+  margin-inline-start: var(--sp0-75);
+}

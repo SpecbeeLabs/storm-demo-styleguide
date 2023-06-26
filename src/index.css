@@ -110,6 +110,19 @@ p {
   margin-block-end: var(--sp);
 }
 
+a {
+  color: var(--color--blue);
+  text-decoration: none;
+  border-bottom: 1px solid;
+  transition: .25s all ease-in-out;
+}
+
+a:hover, a:focus {
+  color: var(--color--blue-20);
+}
+
+
+
 @font-face {
   font-family: Metropolis;
   src:

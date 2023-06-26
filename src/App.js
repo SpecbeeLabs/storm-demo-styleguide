@@ -1,5 +1,6 @@
 import "./App.css";
 import ColorPalette from "./components/ColorPalette/ColorPalette";
+import Links from "./components/Links/Links";
 import Typography from "./components/Typography/Typography";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <div className="app__content">
         <ColorPalette />
         <Typography />
+        <Links />
       </div>
     </div>
   );
