@@ -6,7 +6,7 @@
 }
 
 .app__header {
-  padding: var(--sp2) var(--sp4);
+  padding: var(--sp);
   background: var(--color--blue);
   position: fixed;
   top: 0;
@@ -16,7 +16,7 @@
 }
 
 header > .page-title {
-  font-size: var(--fs-xxl);
+  font-size: var(--fs-l);
   margin: auto;
   color: var(--color--white);
   max-width: var(--container);
@@ -25,5 +25,5 @@ header > .page-title {
 .app__content {
   margin-top: 130px;
   padding-block: var(--sp2);
-  background: var(--color--gray-95);
+  background: var(--color--gray-95)
 }
