@@ -2,7 +2,7 @@ import "./LinkCard.css";
 
 function LinkCard() {
   return (
-    <section className="section section--text-card">
+    <section className="section section--link-card">
       <h2 className="section__title">Link Text Card</h2>
       <div className="section__content d-grid d-grid__2">
         <div className="card card--link-text">

@@ -59,6 +59,7 @@
   --color--red: #e33f1e; /* Red */
   --color--gold: #fdca40; /* Gold */
   --color--green: #3fa21c; /* Green */
+  --color--blue-tr: hsl(204deg 79% 93% / 80%);
   --shadow: 0 0 var(--sp) var(--color--gray-80);
 }
 
@@ -195,6 +196,10 @@ a:hover, a:focus {
 
 .d-grid__2 {
   grid-template-columns: repeat(2, 1fr);
+}
+
+.d-grid__3 {
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .d-grid__4 {

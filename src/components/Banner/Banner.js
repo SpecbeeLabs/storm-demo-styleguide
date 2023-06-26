@@ -1,5 +1,5 @@
 import "./Banner.css";
-import logo from "../../images/banner.jpg";
+import banner from "../../images/banner.jpg";
 
 function Banner() {
   return (
@@ -7,7 +7,7 @@ function Banner() {
       <h2 className="section__title">Banner</h2>
       <section className="banner">
         <div className="banner__media">
-          <img src={logo} alt="Banner"/>
+          <img src={banner} alt="Banner" />
         </div>
         <div className="banner__content">
           <div className="banner__content-inner">

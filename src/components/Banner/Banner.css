@@ -28,7 +28,7 @@
 .banner__content-inner {
   max-width: 550px;
   padding: var(--sp1-5);
-  background: hsl(204deg 79% 93% / 80%);
+  background: var(--color--blue-tr);
 }
 
 .banner__links {
