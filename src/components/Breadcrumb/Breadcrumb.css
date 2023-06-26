@@ -1,0 +1,19 @@
+.menu--breadcrumb {
+  display: flex;
+  gap: var(--sp1);
+}
+
+.menu--breadcrumb .menu__link {
+  color: var(--color--blue-20);
+  text-transform: capitalize;
+  display: flex;
+  gap: var(--sp);
+}
+
+.menu--breadcrumb .menu__link::after {
+  content: "/";
+}
+
+.menu--breadcrumb .menu__item:last-child .menu__link::after {
+  content: "";
+}

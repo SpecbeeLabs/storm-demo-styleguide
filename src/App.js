@@ -1,4 +1,6 @@
 import "./App.css";
+import Banner from "./components/Banner/Banner";
+import Breadcrumb from "./components/Breadcrumb/Breadcrumb";
 import Buttons from "./components/Buttons/Buttons";
 import ColorPalette from "./components/ColorPalette/ColorPalette";
 import LinkList from "./components/LinkList/LinkList";
@@ -16,9 +18,11 @@ function App() {
         <ColorPalette />
         <Typography />
         <Links />
+        <Breadcrumb />
         <LinkList />
         <MainNavigation />
-        <Buttons/>
+        <Buttons />
+        <Banner />
       </div>
     </div>
   );
