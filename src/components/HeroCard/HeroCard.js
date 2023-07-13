@@ -5,7 +5,7 @@ import card_image_2 from "../../images/card2.jpg";
 function HeroCard() {
   return (
     <section className="section section--image-card">
-      <h2 className="section__title">Image text card</h2>
+      <h2 className="section__title">Hero card</h2>
       <div className="section__content">
         <div className="card card--hero">
           <div className="card__media">

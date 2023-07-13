@@ -7,6 +7,9 @@
 
 .card--hero .card__media {
   flex: 0 0 calc(50% - var(--sp4));
+  width: calc(50% - var(--sp4));
+  heigth: 400px;
+  background: #eee;
 }
 
 .card--hero .card__link {

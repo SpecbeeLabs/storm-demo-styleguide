@@ -1,0 +1,23 @@
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.branding__logo-link {
+  border-bottom: none;
+}
+
+.site-footer__branding .copyright {
+  color: var(--color--gray-25);
+}
+
+.social-links {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+}
+
+.social-links__link {
+  border-bottom: none;
+}
