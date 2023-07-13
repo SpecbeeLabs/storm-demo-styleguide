@@ -2,8 +2,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: var(--sp2) var(--sp3);
+  background-color: var(--color--gray-95);
 }
 
 .logo-link {
   border: none;
+}
+
+.section--site-header .section__content {
+  padding: 0;
 }

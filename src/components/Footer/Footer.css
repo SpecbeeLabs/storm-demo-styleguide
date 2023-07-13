@@ -2,6 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: var(--sp2) var(--sp3);
+  background-color: var(--color--gray-95);
 }
 
 .branding__logo-link {
@@ -20,4 +22,8 @@
 
 .social-links__link {
   border-bottom: none;
+}
+
+.section--site-footer .section__content {
+  padding: 0;
 }

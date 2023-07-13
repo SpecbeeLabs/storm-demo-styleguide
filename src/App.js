@@ -1,4 +1,5 @@
 import "./App.css";
+import Article from "./components/Article/Article";
 import ArticleCard from "./components/ArticleCard/ArticleCard";
 import Banner from "./components/Banner/Banner";
 import Breadcrumb from "./components/Breadcrumb/Breadcrumb";
@@ -39,6 +40,7 @@ function App() {
         <ArticleCard />
         <Header />
         <Footer />
+        <Article />
       </div>
     </div>
   );
