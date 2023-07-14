@@ -20,7 +20,7 @@ function Article() {
               </div>
             </div>
             <div className="article__header-hero">
-              <img src={banner} alt="Hero banner image" />
+              <img src={banner} alt="Hero banner" />
             </div>
           </header>
           <div className="article__body">
