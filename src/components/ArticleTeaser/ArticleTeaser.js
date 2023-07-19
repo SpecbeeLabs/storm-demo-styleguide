@@ -1,12 +1,11 @@
 import "./ArticleTeaser.css";
 import card_image_1 from "../../images/card1.jpg";
-import card_image_2 from "../../images/card2.jpg";
 
 function ArticleTeaser() {
   return (
     <article className="article article--teaser">
       <div className="article__media">
-        <img src={card_image_1} />
+        <img src={card_image_1}  alt="Teaser card"/>
       </div>
       <div className="article__content">
         <header className="article__header">
