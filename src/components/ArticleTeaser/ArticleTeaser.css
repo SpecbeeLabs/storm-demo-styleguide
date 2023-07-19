@@ -1,0 +1,33 @@
+.article--teaser {
+  display: flex;
+  gap: var(--sp2);
+  align-items: center;
+  margin-top: 0;
+}
+
+.article--teaser .article__media {
+  max-width: 300px;
+}
+
+.article--teaser .article__content {
+  max-width: unset;
+  margin: 0;
+}
+
+.article--teaser .article__header {
+  display: block
+}
+
+.article--teaser .article__author-date {
+  color: var(--color--gray-25);
+}
+
+.article--teaser .article__title {
+  font-size: var(--fs-ml);
+  text-transform: uppercase;
+}
+
+.article--teaser .article__title .link {
+  border-bottom: none;
+  color: var(--color-gray-8);
+}

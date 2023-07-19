@@ -1,0 +1,41 @@
+.person__info {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sp3);
+}
+
+.person__picture {
+  max-width: 350px;
+}
+
+.person__content-header {
+  text-transform: uppercase;
+  margin-bottom: var(--sp1-5);
+}
+
+.person__content-header .person__designation {
+  font-weight: 600;
+  color: var(--color--gray-25);
+}
+
+.person__content-header .page-title {
+  color: var(--color--blue);
+  font-size: vaR(--fs-title);
+  margin-bottom: var(--sp0-5);
+}
+
+.person__posts {
+  margin-top: var(--sp3);
+  margin-left: calc(350px + var(--sp3));
+}
+
+.person__post-heading {
+  padding-bottom: var(--sp0-5);
+  margin-bottom: var(--sp2-5);
+  border-bottom: 1px solid var(--color--gray-25);
+}
+
+.person__links .social-links {
+  margin: 0;
+  padding: 0;
+}

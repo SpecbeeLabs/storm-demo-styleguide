@@ -114,6 +114,17 @@
 .bio-teaser__header {
   grid-column: 2/-1;
   grid-row: 1;
+  align-self: center;
+}
+
+.bio-teaser__header .bio-teaser__name {
+  font-size: var(--fs-ml);
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.bio-teaser__header .bio-teaser__designation {
+  color: var(--color--gray-25);
 }
 
 .bio-teaser__content, .bio-teaser__link {

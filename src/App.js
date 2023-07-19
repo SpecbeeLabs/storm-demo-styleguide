@@ -14,6 +14,8 @@ import LinkCard from "./components/LinkCard/LinkCard";
 import LinkList from "./components/LinkList/LinkList";
 import Links from "./components/Links/Links";
 import MainNavigation from "./components/MainNavigation/MainNavigation";
+import Pager from "./components/Pager/Pager";
+import Person from "./components/Person/Person";
 import TextCard from "./components/TextCard/TextCard";
 import Typography from "./components/Typography/Typography";
 
@@ -41,6 +43,8 @@ function App() {
         <Header />
         <Footer />
         <Article />
+        <Person />
+        <Pager />
       </div>
     </div>
   );
