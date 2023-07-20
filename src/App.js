@@ -6,6 +6,7 @@ import Breadcrumb from "./components/Breadcrumb/Breadcrumb";
 import Buttons from "./components/Buttons/Buttons";
 import ColorPalette from "./components/ColorPalette/ColorPalette";
 import Footer from "./components/Footer/Footer";
+import Form from "./components/Form/Form";
 import Header from "./components/Header/Header";
 import HeroCard from "./components/HeroCard/HeroCard";
 import ImageCard from "./components/ImageCard/ImageCard";
@@ -45,6 +46,7 @@ function App() {
         <Article />
         <Person />
         <Pager />
+        <Form />
       </div>
     </div>
   );

@@ -1,0 +1,48 @@
+.section--form .section__content form{
+  max-width: 960px;
+  margin: auto;
+}
+
+.form__flex-wrapper {
+  display: flex;
+  gap: var(--sp1-5);
+  margin-bottom: var(--sp1-5);
+}
+
+.form__flex-wrapper .form__item {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.form__item, .form__item-wrapper {
+  margin-bottom: var(--sp1-5);
+}
+
+.form__item-wrapper .form__item {
+  margin-bottom: var(--sp0-25);
+}
+
+.form__label {
+  font-weight: 600;
+  display: block;
+  text-transform: uppercase;
+  font-size: var(--fs-xs);
+  color: var(--color--blue-20);
+  margin: var(--sp0-25) 0;
+}
+
+.form__text, .form__tel, .form__email, .form__url, .form__number, .form__select {
+  width: 100%;
+  padding: var(--sp0-5) var(--sp);
+  border: 2px solid var(--color--gray-50);
+  height: 50px;
+  border-radius: 5px;
+}
+
+.form__text:hover, .form__tel:hover, .form__email:hover, .form__url:hover, .form__number:hover {
+  border-color: var(--color--gray-10);
+}
+
+.form__action {
+  margin: var(--sp2) 0;
+}
